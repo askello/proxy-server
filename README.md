@@ -11,11 +11,6 @@ Access can be restricted:
 
 ## Usage
 
-Build image:
-```shell
-docker build -t askello/proxy-server .
-```
-
 Start proxy server (without any restrictions, can be used by anyone):
 ```shell
 docker run -it -p 8888:8888 askello/proxy-server
